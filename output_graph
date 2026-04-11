@@ -1,0 +1,194 @@
+digraph DataFlow {
+	graph [layout=dot orientation="[lL]*" overlap=scale pagedir=BL rankdir=TB ranksep="0.75 equally" ratio=compress]
+	node [shape=circle]
+	X_7 -> S_7
+	S_16 -> R2_3
+	R2_3 -> S_3
+	S_19 -> S_24
+	R2_5 -> R1_4
+	R1_10 -> R2_11
+	R1_5 -> X_5
+	S_11 -> S_16
+	S_20 -> R1_8
+	R2_6 -> R1_7
+	S_5 -> S_21
+	X_2 -> S_17
+	S_6 -> S_22
+	R1_3 -> X_3
+	S_22 -> R1_10
+	S_23 -> X_8
+	R2_1 -> S_1
+	R1_2 -> S_14
+	R2_0 -> S_0
+	S_22 -> X_7
+	R1_5 -> R2_6
+	R1_10 -> X_10
+	S_22 -> S_25
+	S_17 -> S_22
+	S_17 -> S_20
+	S_15 -> S_13
+	R1_1 -> R2_0
+	X_9 -> S_9
+	X_4 -> S_4
+	S_7 -> S_23
+	R1_6 -> X_6
+	Z_10 -> S_10
+	R2_1 -> S_14
+	S_4 -> S_20
+	S_15 -> S_20
+	S_17 -> R1_5
+	R1_9 -> R2_10
+	S_16 -> S_21
+	S_2 -> S_13
+	X_6 -> S_6
+	X_3 -> S_3
+	S_19 -> S_22
+	R2_4 -> R1_5
+	S_21 -> R1_9
+	S_15 -> R1_3
+	S_9 -> S_25
+	R1_6 -> S_18
+	X_8 -> S_8
+	S_0 -> S_16
+	Z_1 -> S_1
+	Z_4 -> S_4
+	R2_8 -> R1_9
+	R2_6 -> S_6
+	R2_9 -> S_9
+	S_13 -> R2_0
+	S_20 -> X_5
+	S_21 -> X_6
+	S_19 -> R1_7
+	R1_3 -> R2_4
+	X_10 -> S_10
+	Z_8 -> S_8
+	S_15 -> X_0
+	Z_2 -> S_2
+	R2_3 -> R1_2
+	Z_3 -> S_3
+	S_20 -> S_25
+	R1_6 -> R2_7
+	R2_4 -> S_4
+	R2_9 -> R1_10
+	Z_9 -> S_9
+	R2_2 -> R1_3
+	R1_4 -> R2_3
+	S_20 -> S_23
+	R2_2 -> R1_1
+	S_13 -> S_16
+	S_1 -> S_12
+	R2_7 -> R1_8
+	S_24 -> X_9
+	S_21 -> S_24
+	S_3 -> S_19
+	S_23 -> R1_11
+	R2_2 -> S_2
+	R1_8 -> X_8
+	X_1 -> S_1
+	S_14 -> S_19
+	R2_5 -> S_18
+	S_8 -> S_24
+	S_18 -> X_3
+	R1_2 -> S_17
+	S_16 -> S_19
+	R1_7 -> X_7
+	S_17 -> S_12
+	R1_0 -> X_0
+	R2_8 -> S_8
+	R2_1 -> R1_0
+	X_0 -> S_0
+	R2_5 -> S_5
+	Z_6 -> S_6
+	R2_10 -> S_10
+	S_18 -> S_13
+	S_25 -> X_10
+	R1_9 -> X_9
+	S_16 -> X_1
+	R2_10 -> R1_11
+	S_18 -> S_21
+	S_18 -> S_23
+	X_5 -> S_5
+	R2_7 -> S_7
+	S_14 -> S_12
+	R1_8 -> R2_9
+	S_19 -> X_4
+	R1_4 -> X_4
+	Z_0 -> S_0
+	R1_1 -> X_1
+	X_2 -> S_2
+	Z_7 -> S_7
+	R1_7 -> R2_8
+	Z_5 -> S_5
+	X_10 [color=green shape=circle style=filled]
+	X_0 [color=green shape=circle style=filled]
+	S_1 [color=green shape=circle style=filled]
+	S_10 [color=green shape=circle style=filled]
+	R2_4 [color=green shape=circle style=filled]
+	Z_4 [color=blue shape=doublecircle style=filled]
+	R2_7 [color=green shape=circle style=filled]
+	R2_6 [color=green shape=circle style=filled]
+	R2_0 [color=green shape=circle style=filled]
+	R2_11 [color=green shape=circle style=filled]
+	S_8 [color=green shape=circle style=filled]
+	R1_7 [color=green shape=circle style=filled]
+	S_0 [color=green shape=circle style=filled]
+	S_19 [color=green shape=circle style=filled]
+	S_12 [color=green shape=circle style=filled]
+	X_8 [color=green shape=circle style=filled]
+	S_22 [color=green shape=circle style=filled]
+	R1_8 [color=green shape=circle style=filled]
+	Z_5 [color=blue shape=doublecircle style=filled]
+	S_21 [color=green shape=circle style=filled]
+	R1_9 [color=green shape=circle style=filled]
+	R1_6 [color=red shape=doublecircle style=filled]
+	R2_3 [color=green shape=circle style=filled]
+	X_1 [color=green shape=circle style=filled]
+	S_14 [color=green shape=circle style=filled]
+	X_6 [color=green shape=circle style=filled]
+	R1_10 [color=green shape=circle style=filled]
+	Z_10 [color=blue shape=doublecircle style=filled]
+	R2_1 [color=red shape=doublecircle style=filled]
+	S_24 [color=green shape=circle style=filled]
+	S_4 [color=green shape=circle style=filled]
+	S_23 [color=green shape=circle style=filled]
+	R1_3 [color=green shape=circle style=filled]
+	S_13 [color=green shape=circle style=filled]
+	S_11 [color=red shape=doublecircle style=filled]
+	R1_5 [color=green shape=circle style=filled]
+	X_5 [color=green shape=circle style=filled]
+	S_7 [color=green shape=circle style=filled]
+	S_25 [color=green shape=circle style=filled]
+	S_16 [color=green shape=circle style=filled]
+	X_3 [color=green shape=circle style=filled]
+	S_17 [color=green shape=circle style=filled]
+	Z_3 [color=blue shape=doublecircle style=filled]
+	X_7 [color=green shape=circle style=filled]
+	X_9 [color=green shape=circle style=filled]
+	R1_11 [color=green shape=circle style=filled]
+	Z_9 [color=blue shape=doublecircle style=filled]
+	Z_2 [color=blue shape=doublecircle style=filled]
+	Z_0 [color=blue shape=doublecircle style=filled]
+	S_15 [color=red shape=doublecircle style=filled]
+	S_18 [color=green shape=circle style=filled]
+	S_3 [color=green shape=circle style=filled]
+	Z_6 [color=blue shape=doublecircle style=filled]
+	R2_10 [color=green shape=circle style=filled]
+	R1_2 [color=green shape=circle style=filled]
+	S_20 [color=green shape=circle style=filled]
+	R1_0 [color=green shape=circle style=filled]
+	R1_1 [color=green shape=circle style=filled]
+	R2_5 [color=red shape=doublecircle style=filled]
+	X_4 [color=green shape=circle style=filled]
+	R2_8 [color=green shape=circle style=filled]
+	S_2 [color=green shape=circle style=filled]
+	S_5 [color=green shape=circle style=filled]
+	X_2 [color=red shape=doublecircle style=filled]
+	R2_9 [color=green shape=circle style=filled]
+	Z_7 [color=blue shape=doublecircle style=filled]
+	R2_2 [color=red shape=doublecircle style=filled]
+	Z_8 [color=blue shape=doublecircle style=filled]
+	R1_4 [color=green shape=circle style=filled]
+	S_6 [color=green shape=circle style=filled]
+	Z_1 [color=blue shape=doublecircle style=filled]
+	S_9 [color=green shape=circle style=filled]
+}

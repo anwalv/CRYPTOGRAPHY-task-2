@@ -1,0 +1,139 @@
+Number of relations: 55
+Number of variables: 73
+Number of target variables: 18
+Number of known variables: 11
+Number of guessed variables: 7
+Number of state copies (max_steps): 73
+An upper bound for the number of guessed variables given by user (max_guess): 7
+73 out of 73 state variables are known after 73 state copies
+############################################################
+The following 7 variable(s) are guessed:
+S_15, R2_1, S_11, R2_2, X_2, R2_5, R1_6
+############################################################
+The following 11 variable(s) are initially known:
+Z_0, Z_1, Z_2, Z_3, Z_4, Z_5, Z_6, Z_7, Z_8, Z_9, Z_10
+############################################################
+Target variables:
+S_0, S_1, S_2, S_3, S_4, S_5, S_6, S_7, S_8, S_9, S_10, S_11, S_12, S_13, S_14, S_15, R1_0, R2_0
+############################################################
+Determination flow:
+
+State 0:
+R2_1 in symmetric relation [R2_1, R1_0] are known: R2_1 ===> R1_0
+R2_2 in symmetric relation [R2_2, R1_1] are known: R2_2 ===> R1_1
+Z_2, X_2, R2_2 in symmetric relation [Z_2, X_2, R2_2, S_2] are known: Z_2, X_2, R2_2 ===> S_2
+R2_2, S_15 in symmetric relation [R1_3, R2_2, S_15] are known: R2_2, S_15 ===> R1_3
+R2_5 in symmetric relation [R2_5, R1_4] are known: R2_5 ===> R1_4
+R1_6, R2_5 in symmetric relation [R1_6, R2_5, S_18] are known: R1_6, R2_5 ===> S_18
+R1_6 in symmetric relation [R2_7, R1_6] are known: R1_6 ===> R2_7
+############################################################
+State 1:
+S_15, R1_0 in symmetric relation [X_0, S_15, R1_0] are known: S_15, R1_0 ===> X_0
+S_18, S_2, S_15 in symmetric relation [S_18, S_2, S_13, S_15] are known: S_18, S_2, S_15 ===> S_13
+S_18, R1_3 in symmetric relation [X_3, S_18, R1_3] are known: S_18, R1_3 ===> X_3
+R1_3 in symmetric relation [R2_4, R1_3] are known: R1_3 ===> R2_4
+############################################################
+State 2:
+R1_1, S_13 in symmetric relation [R1_1, R2_0, S_13] are known: R1_1, S_13 ===> R2_0
+############################################################
+State 3:
+Z_0, X_0, R2_0 in symmetric relation [Z_0, X_0, R2_0, S_0] are known: Z_0, X_0, R2_0 ===> S_0
+############################################################
+State 4:
+S_0, S_11, S_13 in symmetric relation [S_16, S_0, S_11, S_13] are known: S_0, S_11, S_13 ===> S_16
+############################################################
+State 5:
+S_16, R1_1 in symmetric relation [X_1, S_16, R1_1] are known: S_16, R1_1 ===> X_1
+R1_4, S_16 in symmetric relation [R1_4, R2_3, S_16] are known: R1_4, S_16 ===> R2_3
+############################################################
+State 6:
+Z_1, X_1, R2_1 in symmetric relation [Z_1, X_1, R2_1, S_1] are known: Z_1, X_1, R2_1 ===> S_1
+R2_3 in symmetric relation [R2_3, R1_2] are known: R2_3 ===> R1_2
+Z_3, X_3, R2_3 in symmetric relation [Z_3, X_3, R2_3, S_3] are known: Z_3, X_3, R2_3 ===> S_3
+############################################################
+State 7:
+R1_2, R2_1 in symmetric relation [R1_2, R2_1, S_14] are known: R1_2, R2_1 ===> S_14
+X_2, R1_2 in symmetric relation [X_2, S_17, R1_2] are known: X_2, R1_2 ===> S_17
+############################################################
+State 8:
+S_17, S_1, S_14 in symmetric relation [S_17, S_1, S_12, S_14] are known: S_17, S_1, S_14 ===> S_12
+S_3, S_14, S_16 in symmetric relation [S_19, S_3, S_14, S_16] are known: S_3, S_14, S_16 ===> S_19
+R2_4, S_17 in symmetric relation [R1_5, R2_4, S_17] are known: R2_4, S_17 ===> R1_5
+############################################################
+State 9:
+S_19, R1_4 in symmetric relation [X_4, S_19, R1_4] are known: S_19, R1_4 ===> X_4
+R1_5 in symmetric relation [R2_6, R1_5] are known: R1_5 ===> R2_6
+############################################################
+State 10:
+Z_4, X_4, R2_4 in symmetric relation [Z_4, X_4, R2_4, S_4] are known: Z_4, X_4, R2_4 ===> S_4
+R2_6, S_19 in symmetric relation [R1_7, R2_6, S_19] are known: R2_6, S_19 ===> R1_7
+############################################################
+State 11:
+S_4, S_15, S_17 in symmetric relation [S_20, S_4, S_15, S_17] are known: S_4, S_15, S_17 ===> S_20
+R1_7 in symmetric relation [R2_8, R1_7] are known: R1_7 ===> R2_8
+############################################################
+State 12:
+S_20, R1_5 in symmetric relation [X_5, S_20, R1_5] are known: S_20, R1_5 ===> X_5
+R2_7, S_20 in symmetric relation [R1_8, R2_7, S_20] are known: R2_7, S_20 ===> R1_8
+############################################################
+State 13:
+Z_5, X_5, R2_5 in symmetric relation [Z_5, X_5, R2_5, S_5] are known: Z_5, X_5, R2_5 ===> S_5
+R1_8 in symmetric relation [R2_9, R1_8] are known: R1_8 ===> R2_9
+############################################################
+State 14:
+S_5, S_16, S_18 in symmetric relation [S_21, S_5, S_16, S_18] are known: S_5, S_16, S_18 ===> S_21
+############################################################
+State 15:
+S_21, R1_6 in symmetric relation [X_6, S_21, R1_6] are known: S_21, R1_6 ===> X_6
+R2_8, S_21 in symmetric relation [R1_9, R2_8, S_21] are known: R2_8, S_21 ===> R1_9
+############################################################
+State 16:
+Z_6, X_6, R2_6 in symmetric relation [Z_6, X_6, R2_6, S_6] are known: Z_6, X_6, R2_6 ===> S_6
+R1_9 in symmetric relation [R2_10, R1_9] are known: R1_9 ===> R2_10
+############################################################
+State 17:
+S_6, S_17, S_19 in symmetric relation [S_22, S_6, S_17, S_19] are known: S_6, S_17, S_19 ===> S_22
+############################################################
+State 18:
+S_22, R1_7 in symmetric relation [X_7, S_22, R1_7] are known: S_22, R1_7 ===> X_7
+R2_9, S_22 in symmetric relation [R1_10, R2_9, S_22] are known: R2_9, S_22 ===> R1_10
+############################################################
+State 19:
+Z_7, X_7, R2_7 in symmetric relation [Z_7, X_7, R2_7, S_7] are known: Z_7, X_7, R2_7 ===> S_7
+R1_10 in symmetric relation [R2_11, R1_10] are known: R1_10 ===> R2_11
+############################################################
+State 20:
+S_7, S_18, S_20 in symmetric relation [S_23, S_7, S_18, S_20] are known: S_7, S_18, S_20 ===> S_23
+############################################################
+State 21:
+S_23, R1_8 in symmetric relation [X_8, S_23, R1_8] are known: S_23, R1_8 ===> X_8
+R2_10, S_23 in symmetric relation [R1_11, R2_10, S_23] are known: R2_10, S_23 ===> R1_11
+############################################################
+State 22:
+Z_8, X_8, R2_8 in symmetric relation [Z_8, X_8, R2_8, S_8] are known: Z_8, X_8, R2_8 ===> S_8
+############################################################
+State 23:
+S_8, S_19, S_21 in symmetric relation [S_24, S_8, S_19, S_21] are known: S_8, S_19, S_21 ===> S_24
+############################################################
+State 24:
+S_24, R1_9 in symmetric relation [X_9, S_24, R1_9] are known: S_24, R1_9 ===> X_9
+############################################################
+State 25:
+Z_9, X_9, R2_9 in symmetric relation [Z_9, X_9, R2_9, S_9] are known: Z_9, X_9, R2_9 ===> S_9
+############################################################
+State 26:
+S_9, S_20, S_22 in symmetric relation [S_25, S_9, S_20, S_22] are known: S_9, S_20, S_22 ===> S_25
+############################################################
+State 27:
+S_25, R1_10 in symmetric relation [X_10, S_25, R1_10] are known: S_25, R1_10 ===> X_10
+############################################################
+State 28:
+Z_10, X_10, R2_10 in symmetric relation [Z_10, X_10, R2_10, S_10] are known: Z_10, X_10, R2_10 ===> S_10
+############################################################
+The following variables are known in final state:
+X_0, S_15, R1_0, Z_0, R2_0, S_0, R2_1, R1_1, S_13, S_16, S_11, X_1, Z_1, S_1, R2_2, R1_2, S_14, S_17, S_12, X_2, Z_2, S_2, R2_3, R1_3, S_18, X_3, Z_3, S_3, R2_4, R1_4, S_19, X_4, Z_4, S_4, R2_5, R1_5, S_20, X_5, Z_5, S_5, R2_6, R1_6, S_21, X_6, Z_6, S_6, R2_7, R1_7, S_22, X_7, Z_7, S_7, R2_8, R1_8, S_23, X_8, Z_8, S_8, R2_9, R1_9, S_24, X_9, Z_9, S_9, R2_10, R1_10, S_25, X_10, Z_10, S_10, R2_11, R1_11, S_26
+############################################################
+The following relations have not been used in determination (they might be used to check the correctness of guesses):
+S_26, S_10, S_21, S_23
+############################################################
+The following variables can be deduced from multiple paths:
